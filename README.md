@@ -1,5 +1,5 @@
-./CTFoundation
-./metadata
+- ./CTFoundation
+- ./metadata
     Metadata_Attributes.xlsx
     train_metadata.csv
     validation_metadata.csv
