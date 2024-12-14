@@ -1,14 +1,13 @@
 # Project Directory Structure
 
 - `./CTFoundation`
-  - `README.md`
   - `CT_CLIP`
   - `data_preprocess`
   - `figures`
   - `scripts`
   - `text_classifier`
   - `transformer_maskgit`
-README.md
+  - `README.md`
 - `./metadata`
   - `Metadata_Attributes.xlsx`
   - `train_metadata.csv`
