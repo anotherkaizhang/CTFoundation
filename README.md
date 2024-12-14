@@ -1,20 +1,23 @@
-- ./CTFoundation
-- ./metadata
--    Metadata_Attributes.xlsx
--    train_metadata.csv
--    validation_metadata.csv
-- ./multi_abnormality_labels
--    train_predicted_labels.csv
--    valid_predicted_labels.csv
-- ./radiology_text_reports
--    train_reports.csv
--    train_reports_fix.csv
--    validation_reports.csv
--    validation_reports_fix.csv
-- ./train
-- ./train_preprocessed
-- ./valid
-- ./valid_preprocessed
+# Project Directory Structure
+
+- `./CTFoundation`
+- `./metadata`
+  - `Metadata_Attributes.xlsx`
+  - `train_metadata.csv`
+  - `validation_metadata.csv`
+- `./multi_abnormality_labels`
+  - `train_predicted_labels.csv`
+  - `valid_predicted_labels.csv`
+- `./radiology_text_reports`
+  - `train_reports.csv`
+  - `train_reports_fix.csv`
+  - `validation_reports.csv`
+  - `validation_reports_fix.csv`
+- `./train`
+- `./train_preprocessed`
+- `./valid`
+- `./valid_preprocessed`
+
 
 # CT-CLIP
 Welcome to the official repository of CT-CLIP, a pioneering work in 3D medical imaging with a particular focus on chest CT volumes. CT-CLIP provides an open-source codebase and pre-trained models, all freely accessible to researchers. CT-CLIP is also utilized to develop a cutting-edge visual-language chat model, [CT-CHAT](https://github.com/ibrahimethemhamamci/CT-CHAT), designed specifically for 3D chest CT volumes. You can access the training dataset (CT-RATE) consisting of chest CT volumes paired with radiology text reports via the [HuggingFace repository](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE).
