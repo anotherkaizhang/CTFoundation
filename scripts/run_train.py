@@ -43,15 +43,15 @@ clip = CTCLIP(
 )
 trainer = CTClipTrainer(
     clip,
-    reports_file_train= "../../radiology_text_reports/train_reports_fix.csv", # "path_to_train_reports_csv",
-    reports_file_valid= "../../radiology_text_reports/validation_reports_fix.csv", # "path_to_validation_reports_csv",
-    data_train= "../../train", # "path_to_preprocessed_train",
-    data_valid = "../../valid_preprocessed",  # "path_to_preprocessed_valid",
-    labels = "../../multi_abnormality_labels/valid_predicted_labels.csv", #"path_to_validation_labels_csv",
-    batch_size = 2, # 8,
-    results_folder="output_folder",
-    num_train_steps = 100001,
-    num_workers = 0, #4,
+    reports_file_train= "/root/Data/CT-RATE/download/dataset/radiology_text_reports/train_reports_fix.csv",
+    reports_file_valid= "/root/Data/CT-RATE/download/dataset/radiology_text_reports/validation_reports_fix.csv",
+    data_train= "/root/Data/CT-RATE/download/dataset/train_100/",
+    data_valid = "/root/Data/CT-RATE/download/dataset/valid_preprocessed_20/",
+    labels = "/root/Data/CT-RATE/download/dataset/multi_abnormality_labels/valid_predicted_labels.csv",
+    batch_size = 2,
+    results_folder="/root/Projects/CT-CLIP/test_run/output/",
+    num_train_steps = 100,
+    num_workers = 0,
 )
 
 trainer.train()

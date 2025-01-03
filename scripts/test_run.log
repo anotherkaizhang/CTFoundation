@@ -1,0 +1,7 @@
+---------
+0
+4
+-----------
+data_train is /root/Data/CT-RATE/download/dataset/train/ reports_file_train is  /root/Data/CT-RATE/download/dataset/radiology_text_reports/train_reports_fix.csv
+data_valid is /root/Data/CT-RATE/download/dataset/valid_preprocessed/ reports_file_valid is  /root/Data/CT-RATE/download/dataset/radiology_text_reports/validation_reports_fix.csv
+do you want to clear previous experiment checkpoints and results? (y/n) 

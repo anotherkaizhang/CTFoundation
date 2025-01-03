@@ -107,7 +107,7 @@ class CTReportDataset(Dataset):
         nii_img = nib.load(str(path))
         img_data = nii_img.get_fdata()
 
-        df = pd.read_csv("../../metadata/train_metadata.csv") #select the metadata
+        df = pd.read_csv("/root/Data/CT-RATE/download/dataset/metadata/train_metadata.csv") #select the metadata
         file_name = path.split("/")[-1]
         row = df[df['VolumeName'] == file_name]
         slope = float(row["RescaleSlope"].iloc[0])

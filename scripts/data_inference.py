@@ -10,7 +10,10 @@ import torchvision.transforms as transforms
 from functools import partial
 import torch.nn.functional as F
 import tqdm
+import os
 
+# Set the CUDA devices you want to be available (e.g., GPU 0 and GPU 2)
+os.environ["CUDA_VISIBLE_DEVICES"] = "5,6, 7"
 
 class CTReportDatasetinfer(Dataset):
     def __init__(self, data_folder, csv_file, min_slices=20, resize_dim=500, force_num_frames=True, labels = "labels.csv"):

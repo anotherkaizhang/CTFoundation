@@ -34,6 +34,10 @@ from ct_clip import CTCLIP
 import os
 
 
+# Set the CUDA devices you want to be available (e.g., GPU 0 and GPU 2)
+os.environ["CUDA_VISIBLE_DEVICES"] = "5,6,7"
+
+
 # helpers
 def apply_softmax(array):
     """
