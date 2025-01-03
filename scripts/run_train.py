@@ -4,7 +4,6 @@ from transformers import BertTokenizer, BertModel
 from ct_clip import CTCLIP, TextTransformer
 from CTCLIPTrainer import CTClipTrainer
 
-
 tokenizer = BertTokenizer.from_pretrained('microsoft/BiomedVLP-CXR-BERT-specialized',do_lower_case=True)
 
 text_encoder = BertModel.from_pretrained("microsoft/BiomedVLP-CXR-BERT-specialized")
